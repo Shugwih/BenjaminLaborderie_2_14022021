@@ -666,4 +666,10 @@ a {
     #activity_6 {
         height: 100px;
     }
+
+    #Footer {
+        display: flex;
+        flex-direction: column;
+    }
+
 }    
