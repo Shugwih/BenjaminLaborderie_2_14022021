@@ -228,5 +228,114 @@ a {
     min-height: 750px;
 }
 
-/*Core*/
+/*-------------------*/
+/*Hosting Section*/
+
+#Hosting_section {
+    background-color: #F2F2F2;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+#Hosting_section i { /*Font awesome item color*/
+    color: #0065FC;
+}
+
+#Hosting_section h2 {
+    max-width: 70%;
+    margin-left: 15px;
+}
+
+#Main_Hosting_Box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.Hosting_Box {
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    border-radius: 15px;
+    margin: 12px;
+    background-color: white;
+    padding: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.397);
+}
+
+.Hosting_Box:hover {
+    cursor: pointer;
+    scale: 1.05;
+    transition-duration: 0.5s;
+}
+
+.Hosting_text {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    line-height: 1px;
+}
+
+#Hosting_img_1 {
+    background-image: url("images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 60%;
+    border-radius: 10px 10px 0 0;
+}
+
+#Hosting_img_2 {
+    background-image: url("images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 60%;
+    border-radius: 10px 10px 0 0;
+}
+
+#Hosting_img_3 {
+    background-image: url("images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 60%;
+    border-radius: 10px 10px 0 0;
+}
+
+#Hosting_img_4 {
+    background-image: url("images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 60%;
+    border-radius: 10px 10px 0 0;
+}
+
+#Hosting_img_5 {
+    background-image: url("./images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 60%;
+    border-radius: 10px 10px 0 0;
+}
+
+#Hosting_img_6 {
+    background-image: url("./images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 60%;
+    border-radius: 10px 10px 0 0;
+}
+
+#show_more_button {
+    font-weight: bold;
+    font-size: 1.32em;
+    margin-left: 15px;
+    margin-top: 45px;
+    cursor: pointer;
+    max-width: 130px;
+}
+
+#show_more_button:hover {
+    scale: 1.05;
+    transition-duration: 0.7s;
+}
+
+/*Hosting Section*/
 /*-------------------*/
