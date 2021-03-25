@@ -702,5 +702,9 @@ a {
     .Activity_box {
         width: 325px;
     }
-    
+
+    #Footer {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
 }    
