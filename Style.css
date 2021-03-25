@@ -115,7 +115,7 @@ a {
 #search_button:hover {
     transition-duration: 0.7s;
     background-size: 200%;
-    scale: 1.05;
+    transform: scale(1.05);
     background-image: linear-gradient(
         to left,
         #0065FC,
@@ -140,6 +140,14 @@ a {
 }
 
 #eco_family_mobile {
+    display: flex;
+}
+
+#romantic_puppy_mobile {
+    display: flex;
+}
+
+#romantic_puppy {
     display: flex;
 }
 
@@ -179,7 +187,7 @@ a {
 }
 
 .filter:hover {
-    scale: 1.05;
+    transform: scale(1.05);
     transition-duration: 0.7s;
     background-size: 200%;
     background-image: linear-gradient(
@@ -264,7 +272,7 @@ a {
 
 .Hosting_Box:hover {
     cursor: pointer;
-    scale: 1.05;
+    transform: scale(1.05);
     transition-duration: 0.5s;
 }
 
@@ -333,7 +341,7 @@ a {
 }
 
 #show_more_button:hover {
-    scale: 1.05;
+    transform: scale(1.05);
     transition-duration: 0.7s;
 }
 
@@ -357,7 +365,7 @@ a {
 }
 
 #Most_popular_titlebox i { /*Font awesome item position*/
-    padding-left: 300px;
+    padding-left: 150px;
 }
 
 #Most_popular_img_1 {
@@ -404,7 +412,7 @@ a {
 
 .Most_popular:hover {
     cursor: pointer;
-    scale: 1.05;
+    transform: scale(1.05);
     transition-duration: 0.5s;
 }
 
@@ -437,7 +445,6 @@ a {
 
 .Activity_box {
     margin: 25px;
-    width: 400px;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.397);
 }
@@ -449,7 +456,7 @@ a {
     padding-bottom: 10px;
 }
 .Activity_box:hover {
-    scale: 1.05;
+    transform: scale(1.05);
     transition-duration: 0.7s;
 }
 
@@ -553,15 +560,34 @@ a {
 
     #Logo_Header {
         height: 0;
+        padding: 10px 0 0 25px;
+    }
+
+    #Header_Box_Parent {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    .Header_Box {
+        padding-left: 60px;
+    }
+
+    #Subscribe_Header_Box {
+        padding: 15px 25px 0 0;
     }
 
     #Header_Nav {
         flex-direction: column-reverse;
         align-items: flex-end;
-        border: 1px solid black;
         height: 100px;
         justify-content: space-between;
         width: 100%;
+    }
+
+    .Header_Nav_Link:hover {
+        border-bottom: 3px solid #0065FC;
+        border-top: none;
     }
 
     #Header_hosting_1 {
@@ -574,6 +600,7 @@ a {
         display: flex;
         flex-direction: column;
         align-items: initial;
+        transform: scale(0.9);
     }
 
     #eco_family_mobile {
@@ -581,8 +608,28 @@ a {
         align-items: flex-start;
     }
 
+    #romantic_puppy_mobile {
+        flex-direction: column;
+    }
+
+    #Romantic_filter {
+        width: 50%;
+    }
+
+    #Puppy_filter {
+        width: 70%;
+    }
+
     .filter {
         margin-bottom: 15px;
+    }
+
+    .sub_filters {
+        padding: 0 18px 0 0;
+    }
+
+    #vacancy {
+        margin-left: 12px;
     }
 
     #Hosting_and_popular {
@@ -677,6 +724,40 @@ a {
 /*Responsive Tab*/
 @media (min-width: 481px) and (max-width: 1024px) 
 {
+    #Main_filter {
+        margin-left: 10px;
+        flex-direction: column;
+    }
+
+    #search_filters {
+        justify-content: space-evenly;
+    }
+
+    .sub_filters {
+        padding: 0 10px 0 0;
+    }
+
+    .filter {
+        margin-top: 6px;
+    }
+
+    #filter_title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #DEEBFF;
+        color: #0065FC;
+        border-radius: 100%;
+        height: 3rem;
+        width: 3rem;
+        min-height: 3.5rem;
+        min-width: 3.5rem;
+    }
+
+    #romantic_puppy_mobile {
+        display: flex;
+    }
+
     #Hosting_and_popular {
         display: flex;
         flex-direction: column;
@@ -704,7 +785,12 @@ a {
     }
 
     #Footer {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Footer_Nav_Box {
+        display: flex;
+        flex-direction: column;
     }
 }    
