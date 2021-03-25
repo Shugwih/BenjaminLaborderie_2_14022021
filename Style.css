@@ -421,3 +421,87 @@ a {
 
 /*Popular Section*/
 /*-------------------*/
+/*Activity Section*/
+
+#Activity_section {
+    margin-bottom: 20px;
+}
+
+#Activity_section h2 {
+    margin-left: 23px;
+}
+#Main_activity_box {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.Activity_box {
+    margin: 25px;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.397);
+}
+
+.Activity_box p {
+    font-weight: bold;
+    text-align: left;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.Activity_box:hover {
+    scale: 1.05;
+    transition-duration: 0.7s;
+}
+
+#activity_1 { /*Activity picture*/
+    background-image: url("images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 325px;
+    border-radius: 10px 10px 0 0;
+}
+
+#activity_2 {
+    background-image: url("images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 155px;
+    border-radius: 10px 10px 0 0;
+}
+
+#activity_3 {
+    background-image: url("images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 125px;
+    border-radius: 10px 10px 0 0;
+}
+
+#activity_4 {
+    background-image: url("images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 325px;
+    border-radius: 10px 10px 0 0;
+}
+
+#activity_5 {
+    background-image: url("images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 140px;
+    border-radius: 10px 10px 0 0;
+}
+
+#activity_6 {
+    background-image: url("images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 140px;
+    border-radius: 10px 10px 0 0;
+}
+
+/*Core*/
+
+/*Main*/
+/*-------------------*/
