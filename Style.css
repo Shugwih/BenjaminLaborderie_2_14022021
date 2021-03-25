@@ -694,4 +694,13 @@ a {
         padding-left: 390px;
     }
 
+    #Main_activity_box {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .Activity_box {
+        width: 325px;
+    }
+    
 }    
