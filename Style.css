@@ -79,3 +79,51 @@ a {
 /*-------------------*/
 /*Research*/
 
+#search {
+    display: flex;
+    margin-left: 20px;
+}
+
+#search .fas { /*Font awesome item*/
+    border: 1px solid transparent;
+    background-color: #F2F2F2;
+    border-radius: 15px 0 0 15px;
+    padding: 13px 15px 13px 15px;
+}
+
+#site_search {
+    border: 1px solid;
+    border-color: #F2F2F2 #F2F2F2 #F2F2F2 transparent;
+    padding: 15px;
+}
+
+#search input {
+    font-weight: bold;
+    color: black;
+}
+
+#search_button {
+    border: 1px solid transparent;
+    border-radius: 0 12px 12px 0;
+    padding: 10px;
+    background-color: #0065FC;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#search_button:hover {
+    transition-duration: 0.7s;
+    background-size: 200%;
+    scale: 1.05;
+    background-image: linear-gradient(
+        to left,
+        #0065FC,
+        #3887ff,
+        #0065FC
+    );
+    background-position: right;
+}
+
+/*Research*/
+/*-------------------*/
