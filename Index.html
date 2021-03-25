@@ -1,29 +1,30 @@
 <!DOCTYPE html>
 <html lang="fr">
 
-
-<Head>
-    <meta charset="utf-8">
+<head>
+	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 	<title>Reservia - Hébergements</title>
 	<link rel="stylesheet" type="text/css" href="Style.css">
 	<script src="https://kit.fontawesome.com/3d50409f76.js" crossorigin="anonymous"></script>
-	<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;0,400;0,500;0,600;1,100;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
-</Head>
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;0,400;0,500;0,600;1,100;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet"> 
+</head>
 
-<!--Body-->
 <body>
 	
 	<!--HEADER-->
 	<header id="Header">
-
-		<a href="#"><img id="Logo_Header" src="Images/Logo_Reservia.svg" alt="Logo Reservia" href="Home_page"></a>
+		<div id="Logo_Header">
+			<img src="Images/Logo_Reservia.svg" alt="Logo Reservia">
+		</div>
 		<nav id="Header_Nav">
-			<div id="Hosting_Header_Box">
-				<a id="Header_hosting_1" href="#">Hébergements</a>
+			<div id="Header_Box_Parent">
+			<div class="Header_Box">
+				<a class="Header_Nav_Link" href="#">Hébergements</a>
 			</div>
-			<div id="Activity_Header_Box">
+			<div class="Header_Box">
 				<a class="Header_Nav_Link" href="Activity">Activités</a>
+			</div>
 			</div>
 			<div id="Subscribe_Header_Box">
 				<a href="#">S'inscrire</a>
@@ -31,8 +32,8 @@
 		</nav>
 
 	</header>
-	<!--HEADER / END-->
-    <!------------------->
+	<!--HEADER-->
+
 	<!--MAIN-->
 	<main id="Main">
 		<div id="Main_description">
@@ -47,19 +48,21 @@
 				<button id="search_button">Rechercher</button>
 			</div>
 		</form>
-		<!--Search bar / END-->
-        <!------------------->
+		<!--Search bar-->
+
 		<!--Filters-->
 		<div id="search_filters">
 			<h2 id="filter_title">Filtres</h2>
 			<div id="Main_filter">
-				<div class="filter">
-					<i class="fas fa-money-bill"></i>
-					<span class="sub_filters">Économique</span>
-				</div>
-				<div class="filter">
-					<i class="fas fa-child"></i>
-					<span class="sub_filters">Familial</span>
+				<div id="eco_family_mobile">
+					<div class="filter">
+						<i class="fas fa-money-bill"></i>
+						<span class="sub_filters">Économique</span>
+					</div>
+					<div class="filter">
+						<i class="fas fa-child"></i>
+						<span class="sub_filters">Familial</span>
+					</div>
 				</div>
 				<div class="filter">
 					<i class="fas fa-heart"></i>
@@ -71,7 +74,7 @@
 				</div>
 			</div>
 		</div>
-		<!--Filters / END-->
+		<!--Filters-->
 
 		<div id="vacancy">
 			<i class="fas fa-info"></i>
@@ -181,8 +184,8 @@
 							<p>Afficher plus</p>
 						</div>
 				</section>
-			<!--Hosting Box Core / END-->
-            <!------------------->
+			<!--Hosting Box Core-->
+
 			<!--Popular Box Core-->
 				<section id="Popular_section">
 					<div id="Most_popular_titlebox">
@@ -238,8 +241,8 @@
 				</div>		
 				</section>
 			</div>
-			<!--Popular Box Core / END-->
-            <!------------------->
+			<!--Popular Box Core-->
+
 			<!--Activity Box Core-->
 			<section id="Activity_section">
 				<h2 id="Activity_title">Activités à Marseille</h2>
@@ -280,16 +283,16 @@
 					</div>
 				</div>
 			</section>
-			<!--Activity Box Core / END-->
+			<!--Activity Box Core-->
 
 		</div>
-		<!--Core / END-->
+		<!--Core-->
 
 	</main>
-    <!--Main / END-->
-    <!---------------------->
-    <!--Footer-->
-    <footer id="Footer">
+	<!--MAIN-->
+
+	<!--FOOTER-->
+	<footer id="Footer">
 		<div class="Footer_Nav_Box">
 			<h3>A propos</h3>
 			<nav>
@@ -313,9 +316,6 @@
 			</nav>
 		</div>		
 	</footer>
-    <!--Footer / END-->
+	<!--FOOTER-->
 
 </body>
-<!--Body / END-->
-
-</html>
