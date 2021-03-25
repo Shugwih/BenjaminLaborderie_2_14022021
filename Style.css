@@ -1,3 +1,11 @@
+/*List of Colors*/
+/*Blue : #0065FC*/
+/*Light_Blue : #DEEBFF*/
+/*Grey : #F2F2F2*/
+
+/*-------------------*/
+/*General*/
+
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;0,400;0,500;0,600;1,100;1,300;1,400;1,500;1,600&display=swap');
 body {
     font-family: 'Raleway', sans-serif;
@@ -10,3 +18,54 @@ form {
 a {
     text-decoration: none;
 }
+
+/*General*/
+/*-------------------*/
+
+/*Header*/
+
+#Header {
+    margin-left: 22px;
+}
+
+#Header_Nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 22px;
+}
+
+#Header_Box_Parent {
+    display: flex;
+}
+
+.Header_Nav_Link {
+    margin-right: 60px;
+    color: #4d6180;
+    border: none;
+    background-color: white;
+}
+
+.Header_Nav_Link:hover {
+    padding-top: 50px;
+    color: #0065FC;
+    cursor: pointer;
+    border-top: 3px solid #0065FC;
+    transition-duration: 0.4s;
+}
+
+#Subscribe_Header_Box a {
+    color: #0065FC;
+    font-weight: bold;
+}
+
+#Hosting_main_title {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+#short_describe {
+    font-size: 0.94em;
+}
+
+/*Header*/
+/*-------------------*/
