@@ -505,3 +505,38 @@ a {
 
 /*Main*/
 /*-------------------*/
+/*-------------------*/
+/*Footer*/
+
+#Footer {
+    background-color: #F2F2F2;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    margin: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#Footer h3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 12px ;
+}
+
+.Footer_Nav_Link {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: rgb(59, 59, 59);
+    padding-left: 12px;
+    padding-bottom: 10px;
+    width: 300px;
+}
+
+.Footer_Nav_Link:hover {
+    color: #0065FC;
+}
+
+/*Footer*/
+/*-------------------*/
