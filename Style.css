@@ -584,4 +584,51 @@ a {
     .filter {
         margin-bottom: 15px;
     }
+
+    #Hosting_and_popular {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #Hosting_and_popular section {
+        margin: 0;
+    }
+
+    #Hosting_section {
+        background-color: white;
+    }
+
+    #Hosting_section h2 {
+        max-width: 100%;
+    }
+
+    #Popular_section {
+        order: -1;
+        border-radius: 0;
+    }
+
+    #Most_popular_titlebox i {
+        padding-left: 75px;
+    }
+
+    .Most_popular {
+        margin: 20px;
+    }
+
+    #Most_popular_img_1 {
+        width: 60%;
+    }
+
+    #Most_popular_img_2 {
+        width: 87%;
+    }
+
+    #Most_popular_img_3 {
+        width: 59%;
+    }
+
+    #Main_Hosting_Box {
+        display:flex;
+        flex-direction: column;
+    }
 }    
