@@ -193,3 +193,26 @@ a {
 
 /*Filter*/
 /*-------------------*/
+
+#vacancy {
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+}
+
+#vacancy p {
+    padding-left: 10px;
+}
+
+#vacancy i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid lightgrey;
+    color: #0065FC;
+    border-radius: 100%;
+    min-height: 35px;
+    min-width: 35px;
+}
+
+/*-------------------*/
