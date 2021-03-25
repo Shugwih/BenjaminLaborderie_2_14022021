@@ -631,4 +631,39 @@ a {
         display:flex;
         flex-direction: column;
     }
+
+    #Main_activity_box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Activity_box {
+        width: 340px;
+        margin: 35px;
+    }
+    
+    #activity_1 {
+        height: 100px;
+    }
+
+    #activity_2 {
+        height: 100px;
+    }
+
+    #activity_3 {
+        height: 100px;
+    }
+
+    #activity_4 {
+        height: 100px;
+    }
+
+    #activity_5 {
+        height: 100px;
+    }
+
+    #activity_6 {
+        height: 100px;
+    }
 }    
