@@ -540,3 +540,34 @@ a {
 
 /*Footer*/
 /*-------------------*/
+/*Responsive Iphone*/
+@media (max-width: 480px)
+{
+    body {
+        margin: 0;
+    }
+
+    #Header {
+        margin: 0;
+    }
+
+    #Logo_Header {
+        height: 0;
+    }
+
+    #Header_Nav {
+        flex-direction: column-reverse;
+        align-items: flex-end;
+        border: 1px solid black;
+        height: 100px;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    #Header_hosting_1 {
+    border-bottom: 3px solid #0065FC;
+    padding-bottom: 5px;
+    border-top: none;
+    }
+
+}    
