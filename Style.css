@@ -570,4 +570,18 @@ a {
     border-top: none;
     }
 
+    #Main_filter {
+        display: flex;
+        flex-direction: column;
+        align-items: initial;
+    }
+
+    #eco_family_mobile {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .filter {
+        margin-bottom: 15px;
+    }
 }    
