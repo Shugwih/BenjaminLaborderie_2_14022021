@@ -673,3 +673,25 @@ a {
     }
 
 }    
+
+/*Responsive Tab*/
+@media (min-width: 481px) and (max-width: 1024px) 
+{
+    #Hosting_and_popular {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #Popular_section {
+        order: -1;
+    }
+
+    .Most_popular {
+        margin: 20px;
+    }
+
+    #Most_popular_titlebox i {
+        padding-left: 390px;
+    }
+
+}    
