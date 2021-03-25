@@ -216,3 +216,17 @@ a {
 }
 
 /*-------------------*/
+/*Core*/
+
+#Hosting_and_popular { /*Position of the two central sections*/
+    display: grid;
+    grid-template-columns: 65% 35%;
+}
+
+#Hosting_and_popular section {
+    margin: 25px;
+    min-height: 750px;
+}
+
+/*Core*/
+/*-------------------*/
