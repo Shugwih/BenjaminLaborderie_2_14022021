@@ -17,6 +17,7 @@ form {
 
 a {
     text-decoration: none;
+    color: inherit;
 }
 
 /*General*/
@@ -259,6 +260,10 @@ a {
     grid-template-columns: repeat(3, 1fr);
 }
 
+.grey_rate i { /*<span> Grey star rating*/
+    color: #F2F2F2!important;
+}
+
 .Hosting_Box {
     display: flex;
     flex-direction: column;
@@ -423,7 +428,7 @@ a {
 .Popular_box {
     display: flex;
     flex-direction: column;
-    margin: 0 0 20px 20px;
+    margin: 0 0 20px 8px;
     justify-content: center;
 }
 
@@ -572,10 +577,6 @@ a {
         grid-template-columns: 50% 50%;
     }
 
-    .Header_Box {
-        padding-left: 60px;
-    }
-
     #Subscribe_Header_Box {
         padding: 15px 25px 0 0;
     }
@@ -588,15 +589,25 @@ a {
         width: 100%;
     }
 
+    .Header_Nav_Link {
+        background-color: transparent;
+    }
+
     .Header_Nav_Link:hover {
         border-bottom: 3px solid #0065FC;
         border-top: none;
+        padding-bottom: 15px;
+        transition-duration: 0s;
     }
 
     #Header_hosting_1 {
     border-bottom: 3px solid #0065FC;
     padding-bottom: 5px;
     border-top: none;
+    }
+
+    #Main_description {
+        padding-top: 25px;
     }
 
     #Main_filter {
@@ -789,11 +800,6 @@ a {
 
     #Main_Footer_Nav_Box {
         display: flex;
-        flex-direction: column;
     }
 
-    .Footer_Nav_Box {
-        display: flex;
-        flex-direction: column;
-    }
-}    
+} 
