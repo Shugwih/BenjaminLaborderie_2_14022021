@@ -606,6 +606,14 @@ a {
     border-top: none;
     }
 
+    #search_button {
+        display: none;
+    }
+
+    .fas .fa-search {
+        background-color: red;
+    }
+
     #Main_description {
         padding-top: 25px;
     }
