@@ -33,7 +33,7 @@ a {
 #Header_Nav {
     display: flex;
     justify-content: flex-end;
-    margin-right: 22px;
+    width: 98%;
 }
 
 #Header_Box_Parent {
@@ -294,17 +294,15 @@ a {
 .Hosting_text {
     display: flex;
     flex-direction: column;
-    margin: 10px 0 0 10px;
+    padding: 10px;
 }
 
 .Hosting_text p {
-    margin: 0;
-    padding: 0 0 10px 0;
+    margin: 0 0 10px 0;
 }
 
 .Hosting_text h3 {
-    margin: 0;
-    padding: 0 0 10px 0;
+    margin: 0 0 10px 0;
 }
 
 #Hosting_img_1 {
@@ -459,14 +457,13 @@ a {
 
 #Main_activity_box {
     display: flex;
-    align-items: flex-start;
     justify-content: space-evenly;
 }
 
 .Activity_box {
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.397);
-    width: 432px;
+    width: 24%;
 }
 
 .Activity_box p {
@@ -479,6 +476,7 @@ a {
     transform: scale(1.05);
     transition-duration: 0.7s;
 }
+
 
 #activity_1 { /*Activity picture*/
     background-image: url("images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
@@ -537,13 +535,21 @@ a {
 
 #Footer {
     background-color: #F2F2F2;
+    height: 210px;
+}
+
+#Main_Footer_Nav_Box {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    padding: 15px 0 0 30px;
+    line-height: 1.8;
 }
 
 #Footer h3 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding-left: 12px ;
 }
 
 .Footer_Nav_Link {
@@ -774,6 +780,10 @@ a {
         flex-direction: column;
     }
 
+    #Footer {
+        height: 475px;
+    }
+
 }    
 
 /*Responsive Tab*/
@@ -782,32 +792,33 @@ a {
 
     #Header {
         margin-left: 0;
-        height: 110px;
+        height: 230px;
         display: flex;
         align-items: center;
-        justify-content: space-evenly;
+        justify-content: center;
+        flex-direction: column;
     }
 
     #Logo_Header {
-        height: 90px;
+        height: 180px;
         display: flex;
     }
 
     #Logo_Header img {
-        height: 80px;
+        height: 140px;
     }
 
     #Header_Nav {
         display: flex;
-        justify-content: flex-end;
-        margin-right: 22px;
+        justify-content: inherit;
     }
 
     #Main_description {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 135px;
+    height: 115px;
+    margin: 0;
     }
 
     #search {
@@ -822,7 +833,7 @@ a {
     }
 
     #search_filters {
-        justify-content: space-evenly;
+        justify-content: center;
         height: 200px;
     }
 
@@ -856,6 +867,14 @@ a {
         flex-direction: column;
     }
 
+    .Hosting_text p {
+        font-size: 1em;
+    }
+    
+    .Hosting_text h3 {
+        font-size: 0.97em;
+    }
+
     #Popular_section {
         order: -1;
     }
@@ -867,6 +886,8 @@ a {
     #Main_activity_box {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        align-items: self-start;
     }
 
     .Activity_box {
