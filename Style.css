@@ -27,6 +27,7 @@ a {
 
 #Header {
     margin-left: 22px;
+    height: 90px;
 }
 
 #Header_Nav {
@@ -80,12 +81,17 @@ a {
 /*-------------------*/
 /*Research*/
 
-#search {
+#form_search {
     display: flex;
-    margin-left: 20px;
+    justify-content: center;
 }
 
-#search .fas { /*Font awesome item*/
+#search {
+    display: flex;
+    width: 98%;
+}
+
+.fa-map-marker-alt { /*Font awesome item*/
     border: 1px solid transparent;
     background-color: #F2F2F2;
     border-radius: 15px 0 0 15px;
@@ -124,6 +130,10 @@ a {
         #0065FC
     );
     background-position: right;
+}
+
+#search_button_Iphone {
+    display: none;
 }
 
 /*Research*/
@@ -284,8 +294,17 @@ a {
 .Hosting_text {
     display: flex;
     flex-direction: column;
-    padding-left: 10px;
-    line-height: 1px;
+    margin: 10px 0 0 10px;
+}
+
+.Hosting_text p {
+    margin: 0;
+    padding: 0 0 10px 0;
+}
+
+.Hosting_text h3 {
+    margin: 0;
+    padding: 0 0 10px 0;
 }
 
 #Hosting_img_1 {
@@ -367,10 +386,8 @@ a {
 #Most_popular_titlebox {
     display: flex;
     align-items: center;
-}
-
-#Most_popular_titlebox i { /*Font awesome item position*/
-    padding-left: 150px;
+    justify-content: space-between;
+    width: 97%;
 }
 
 #Most_popular_img_1 {
@@ -436,20 +453,16 @@ a {
 /*-------------------*/
 /*Activity Section*/
 
-#Activity_section {
-    margin-bottom: 20px;
-}
-
 #Activity_section h2 {
     margin-left: 23px;
 }
+
 #Main_activity_box {
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
 }
 
 .Activity_box {
-    margin: 25px;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.397);
 }
@@ -522,14 +535,6 @@ a {
 
 #Footer {
     background-color: #F2F2F2;
-    margin: 30px;
-    padding-top: 25px;
-    padding-bottom: 25px;
-}
-
-#Main_Footer_Nav_Box {
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
 }
 
 #Footer h3 {
@@ -542,11 +547,8 @@ a {
 .Footer_Nav_Link {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    color: rgb(59, 59, 59);
-    padding-left: 12px;
-    padding-bottom: 10px;
-    width: 300px;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .Footer_Nav_Link:hover {
@@ -591,6 +593,9 @@ a {
 
     .Header_Nav_Link {
         background-color: transparent;
+        margin: 0;
+        display: flex;
+        justify-content: space-evenly;
     }
 
     .Header_Nav_Link:hover {
@@ -606,12 +611,34 @@ a {
     border-top: none;
     }
 
+    #search {
+        width: auto;
+    }
+
     #search_button {
         display: none;
     }
 
-    .fas .fa-search {
-        background-color: red;
+    #search_button_Iphone {
+        display: inline;
+        border: 1px solid transparent;
+        color: white;
+        background-color: #0065FC;
+        border-radius: 0 15px 15px 0;
+        padding: 13px 15px 13px 15px;
+    }
+
+    #search_button_Iphone:hover {
+        transition-duration: 0.7s;
+        background-size: 200%;
+        transform: scale(1.05);
+        background-image: linear-gradient(
+            to left,
+            #0065FC,
+            #3887ff,
+            #0065FC
+        );
+        background-position: right;
     }
 
     #Main_description {
@@ -652,6 +679,10 @@ a {
 
     #vacancy {
         margin-left: 12px;
+    }
+
+    #Hosting_main_title {
+        width: 82%;
     }
 
     #Hosting_and_popular {
@@ -746,6 +777,43 @@ a {
 /*Responsive Tab*/
 @media (min-width: 481px) and (max-width: 1024px) 
 {
+
+    #Header {
+        margin-left: 0;
+        height: 110px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    #Logo_Header {
+        height: 90px;
+        display: flex;
+    }
+
+    #Logo_Header img {
+        height: 80px;
+    }
+
+    #Header_Nav {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 22px;
+    }
+
+    #Main_description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 135px;
+    }
+
+    #search {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+
     #Main_filter {
         margin-left: 10px;
         flex-direction: column;
@@ -753,6 +821,7 @@ a {
 
     #search_filters {
         justify-content: space-evenly;
+        height: 200px;
     }
 
     .sub_filters {
@@ -793,10 +862,6 @@ a {
         margin: 20px;
     }
 
-    #Most_popular_titlebox i {
-        padding-left: 390px;
-    }
-
     #Main_activity_box {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -808,6 +873,14 @@ a {
 
     #Main_Footer_Nav_Box {
         display: flex;
+        justify-content: space-between;
+        width: 90%;
+        background-color: #F2F2F2;
+    }
+
+    .Footer_Nav_Box {
+        display: flex;
+        flex-direction: column;
     }
 
 } 
