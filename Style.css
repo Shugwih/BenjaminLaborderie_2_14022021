@@ -458,13 +458,15 @@ a {
 }
 
 #Main_activity_box {
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
 }
 
 .Activity_box {
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.397);
+    width: 432px;
 }
 
 .Activity_box p {
