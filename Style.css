@@ -451,6 +451,10 @@ a {
 /*-------------------*/
 /*Activity Section*/
 
+#Activity_section {
+    height: 480px;
+}
+
 #Activity_section h2 {
     margin-left: 23px;
 }
@@ -463,14 +467,26 @@ a {
 .Activity_box {
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.397);
-    width: 24%;
+    width: 22%;
+}
+
+.Activity_2_3 {
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Activity_5_6 {
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .Activity_box p {
     font-weight: bold;
-    text-align: left;
-    padding-left: 10px;
-    padding-bottom: 10px;
+    margin: 0;
 }
 .Activity_box:hover {
     transform: scale(1.05);
@@ -494,12 +510,20 @@ a {
     border-radius: 10px 10px 0 0;
 }
 
+.Activity_box.A-Box_2 {
+    width: auto;
+}
+
 #activity_3 {
     background-image: url("images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
     background-size: cover;
     background-position: center;
     height: 125px;
     border-radius: 10px 10px 0 0;
+}
+
+.Activity_box.A-Box_3 {
+    width: auto;
 }
 
 #activity_4 {
@@ -518,12 +542,20 @@ a {
     border-radius: 10px 10px 0 0;
 }
 
+.Activity_box.A-Box_5 {
+    width: auto;
+}
+
 #activity_6 {
     background-image: url("images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
     background-size: cover;
     background-position: center;
     min-height: 140px;
     border-radius: 10px 10px 0 0;
+}
+
+.Activity_box.A-Box_6 {
+    width: auto;
 }
 
 /*Core*/
@@ -740,6 +772,10 @@ a {
         flex-direction: column;
     }
 
+    #Activity_section {
+        height: 1234px;
+    }
+
     #Main_activity_box {
         display: flex;
         flex-direction: column;
@@ -748,13 +784,23 @@ a {
 
     .Activity_box {
         width: 340px;
-        margin: 35px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 35px;
     }
     
+    .Activity_box p {
+        margin: 16px;
+    }
+
     #activity_1 {
         height: 100px;
     }
 
+    .Activity_2_3 {
+        width: 340px;
+    }
+    
     #activity_2 {
         height: 100px;
     }
@@ -765,6 +811,10 @@ a {
 
     #activity_4 {
         height: 100px;
+    }
+
+    .Activity_5_6 {
+        width: 340px;
     }
 
     #activity_5 {
@@ -867,6 +917,10 @@ a {
         flex-direction: column;
     }
 
+    .Hosting_text {
+        padding: 5px;
+    }
+
     .Hosting_text p {
         font-size: 1em;
     }
@@ -883,15 +937,32 @@ a {
         margin: 20px;
     }
 
+    #Activity_section {
+        height: 850px;
+    }
+
+    #Activity_section p {
+        padding: 10px 0 0 10px;
+    }
+
     #Main_activity_box {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         justify-items: center;
-        align-items: self-start;
     }
 
     .Activity_box {
-        width: 325px;
+        width: 90%;
+        padding-bottom: 10px;
+        margin: 0 0 20px 25px;
+    }
+
+    .Activity_2_3 {
+        width: 90%;
+    }
+
+    .Activity_5_6 {
+        width: 90%;
     }
 
     #Main_Footer_Nav_Box {
