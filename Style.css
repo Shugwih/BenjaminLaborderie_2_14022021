@@ -20,6 +20,10 @@ a {
     color: inherit;
 }
 
+strong {
+    text-decoration: none;
+}
+
 /*General*/
 /*-------------------*/
 
@@ -915,13 +919,6 @@ a {
         display: flex;
         align-items: center;
         justify-content: center;
-        background-color: #DEEBFF;
-        color: #0065FC;
-        border-radius: 100%;
-        height: 3rem;
-        width: 3rem;
-        min-height: 3.5rem;
-        min-width: 3.5rem;
     }
 
     #romantic_puppy_mobile {
