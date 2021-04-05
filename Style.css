@@ -462,6 +462,7 @@ a {
 #Main_activity_box {
     display: flex;
     justify-content: space-evenly;
+    height: 78%;
 }
 
 .Activity_box {
@@ -477,6 +478,10 @@ a {
     justify-content: space-between;
 }
 
+.Activity_2_3 p {
+    height: 31%!important;
+}
+
 .Activity_5_6 {
     width: 22%;
     display: flex;
@@ -484,21 +489,28 @@ a {
     justify-content: space-between;
 }
 
+.Activity_5_6 p {
+    height: 31%!important;
+}
+
 .Activity_box p {
     font-weight: bold;
     margin: 0;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
 }
 .Activity_box:hover {
     transform: scale(1.05);
     transition-duration: 0.7s;
 }
 
-
 #activity_1 { /*Activity picture*/
     background-image: url("images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
     background-size: cover;
     background-position: center;
-    height: 325px;
+    height: 85%;
     border-radius: 10px 10px 0 0;
 }
 
@@ -506,31 +518,33 @@ a {
     background-image: url("images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
     background-size: cover;
     background-position: center;
-    height: 155px;
+    height: 69%;
     border-radius: 10px 10px 0 0;
 }
 
 .Activity_box.A-Box_2 {
     width: auto;
+    height: 47%;
 }
 
 #activity_3 {
     background-image: url("images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
     background-size: cover;
     background-position: center;
-    height: 125px;
+    height: 69%;
     border-radius: 10px 10px 0 0;
 }
 
 .Activity_box.A-Box_3 {
     width: auto;
+    height: 49%;
 }
 
 #activity_4 {
     background-image: url("images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
     background-size: cover;
     background-position: center;
-    height: 325px;
+    height: 85%;
     border-radius: 10px 10px 0 0;
 }
 
@@ -538,24 +552,26 @@ a {
     background-image: url("images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg");
     background-size: cover;
     background-position: center;
-    min-height: 140px;
+    height: 69%;
     border-radius: 10px 10px 0 0;
 }
 
 .Activity_box.A-Box_5 {
     width: auto;
+    height: 47%;
 }
 
 #activity_6 {
     background-image: url("images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
     background-size: cover;
     background-position: center;
-    min-height: 140px;
+    height: 69%;
     border-radius: 10px 10px 0 0;
 }
 
 .Activity_box.A-Box_6 {
     width: auto;
+    height: 49%;
 }
 
 /*Core*/
@@ -773,7 +789,7 @@ a {
     }
 
     #Activity_section {
-        height: 1234px;
+        height: 80%;
     }
 
     #Main_activity_box {
@@ -941,14 +957,11 @@ a {
         height: 850px;
     }
 
-    #Activity_section p {
-        padding: 10px 0 0 10px;
-    }
-
     #Main_activity_box {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         justify-items: center;
+        height: 92%;
     }
 
     .Activity_box {
