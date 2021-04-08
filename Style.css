@@ -24,6 +24,10 @@ strong {
     text-decoration: none;
 }
 
+.low_price {
+    font-weight: bold;
+}
+
 /*General*/
 /*-------------------*/
 
@@ -638,7 +642,7 @@ strong {
         width: 100%;
         display: grid;
         grid-template-columns: 50% 50%;
-        height: 100%;
+        height: 50%;
         align-items: center;
     }
 
