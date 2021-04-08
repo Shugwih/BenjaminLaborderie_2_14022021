@@ -21,7 +21,7 @@ a {
 }
 
 strong {
-    text-decoration: none;
+    font-weight: normal;
 }
 
 .low_price {
